@@ -1,0 +1,33 @@
+/* Global styles for Journal App */
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(
+    ellipse at top left,
+    rgba(43, 21, 87, 0.45),
+    rgba(17, 24, 39, 1)
+  );
+  background-color: #0f172a; /* fallback */
+}
+/* subtle scrollbar for message pane */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.6);
+}
+
+/* utility to slightly lift message bubbles */
+.message-shadow {
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.6);
+}
