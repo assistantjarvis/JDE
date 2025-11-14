@@ -46,7 +46,7 @@ npm run dev
 
 3. Open your browser
 
-http://localhost:3000/
+[https://jde-gray.vercel.app/]
 
 4. Build for production
 
